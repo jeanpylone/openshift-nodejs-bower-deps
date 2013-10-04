@@ -1,0 +1,12 @@
+{
+  "name": "...",
+  "version": "0.0.1",
+  "scripts": {
+	"postinstall": "export HOME=$OPENSHIFT_DATA_DIR;node bower_install.js",
+	...
+  },
+  "dependencies": {
+    ...,
+	"bower": "*"
+  }
+}
